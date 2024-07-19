@@ -8,5 +8,5 @@ export const BrandAssetss = () => {
       <div>img upload</div>
       {/* {imgFile} */}
     </>
-  );
-};
+  )
+}

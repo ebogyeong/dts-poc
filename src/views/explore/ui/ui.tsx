@@ -3,6 +3,6 @@ function Explore() {
     <>
       <div>explore page</div>
     </>
-  );
+  )
 }
-export default Explore;
+export default Explore

@@ -1,5 +1,5 @@
-import Archive from "@/views/archive/ui";
+import Archive from '@/views/archive/ui'
 
 export default function Page() {
-  return <Archive />;
+  return <Archive />
 }

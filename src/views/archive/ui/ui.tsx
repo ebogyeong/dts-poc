@@ -3,6 +3,6 @@ function Archive() {
     <>
       <div>Archive page</div>
     </>
-  );
+  )
 }
-export default Archive;
+export default Archive

@@ -1,21 +1,21 @@
-"use client";
+'use client'
 
 import {
   Tabs,
   TabsContent,
   TabsList,
-  TabsTrigger,
-} from "@/sdcn/components/ui/tabs";
-import { useState } from "react";
-import { Prompt } from "@/entities/prompt";
-import { BrandAssetss } from "@/entities/brand-assets";
+  TabsTrigger
+} from '@/sdcn/components/ui/tabs'
+import { useState } from 'react'
+import { Prompt } from '@/entities/prompt'
+import { BrandAssetss } from '@/entities/brand-assets'
 
 export const Tab = () => {
-  const [currentTab, setCurrentTab] = useState("prompt");
-  const [promptValue, setPromptValue] = useState("");
+  const [currentTab, setCurrentTab] = useState('prompt')
+  const [promptValue, setPromptValue] = useState('')
   const onPromptValueChange = (value: string) => {
-    setPromptValue(value);
-  };
+    setPromptValue(value)
+  }
 
   return (
     <>
@@ -37,5 +37,5 @@ export const Tab = () => {
         </TabsContent>
       </Tabs>
     </>
-  );
-};
+  )
+}

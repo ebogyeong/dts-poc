@@ -1,17 +1,17 @@
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta, StoryObj } from '@storybook/react'
 
-import { Tab } from ".";
+import { Tab } from '.'
 
 const meta: Meta<typeof Tab> = {
   component: Tab,
-  title: "features/generate",
-  tags: ["autodocs"],
-  argTypes: {},
-};
-export default meta;
+  title: 'features/generate',
+  tags: ['autodocs'],
+  argTypes: {}
+}
+export default meta
 
-type Story = StoryObj<typeof Tab>;
+type Story = StoryObj<typeof Tab>
 
 export const Default: Story = {
-  args: {},
-};
+  args: {}
+}
