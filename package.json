@@ -10,7 +10,7 @@
     "prepare": "husky",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "mock": "npx tsx watch ./src/mocks/http.ts"
+    "mock": "npx tsx watch ./src/shared/mock/http.ts"
   },
   "dependencies": {
     "@radix-ui/react-tabs": "^1.1.0",
